@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kotlin-react-training-1.0-SNAPSHOT">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="kotlin-react-training-1.0-SNAPSHOT.jar">
+      <element id="module-output" name="kotlin-react-training.main" />
+    </root>
+  </artifact>
+</component>
