@@ -7,7 +7,10 @@ import react.RProps
 import react.RState
 import react.dom.attrs
 import react.dom.div
+import react.dom.h1
 import react.dom.input
+import kotlinx.css.*
+import styled.*
 
 external interface WelcomeProps : RProps {
     var name: String
@@ -35,6 +38,14 @@ class Welcome(props: WelcomeProps) : RComponent<WelcomeProps, WelcomeState>(prop
                             WelcomeState(name = (event.target as HTMLInputElement).value)
                     )
                 }
+            }
+        }
+        styledDiv {
+            css {
+                color = Color.green
+            }
+            h1 {
+                +"KotlinConf Explorer"
             }
         }
     }
